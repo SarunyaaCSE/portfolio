@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(98, 229, 188);
+    position: sticky;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 25px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  nav ul li a:hover {
+    color: rgb(1, 2, 2);
+    font-size: 1.04rem;
+  }
+
+  .left {
+    font-size: 1.5rem;
+    left: 5px;
+  }
+
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+  }
+
+  .firstSection>div {
+    width: 30%;
+  }
+
+  .leftSection {
+    font-size: 2.5rem;
+    margin-left: 150px;
+  }
+
+  .rightSection img {
+    width: 80%
+  }
+
+  .firstSection div {
+    width: 40%;
+  }
+
+  .green {
+    color: rgb(98, 229, 188);
+  }
+
+  #element{
+    color: rgb(98, 229, 188);
+  }
+
+  .secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+  }
+
+  main hr{
+    border: 0;
+    background: black;
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+
+  .secondSection h1{
+    font-size: 40px;
+  }
+
+  .certifications img{
+    width: 155px;
+    height: 100px;
+    padding: 25px;
+  }
+
+  .certificate-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 3px solid gray;
+    margin: 40px;
+    border-radius: 45px;
+  }
+
+  .certificate-name{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .thirdSection{
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+  }
+
+  .thirdSection h1{
+    font-size: 40px;
+  }
+
+  .thirdSection dl{
+    margin: 45px;
+  }
+
+  .thirdSection dt{
+    margin:20px;
+    font-size: 30px;
+  }
+
+  .thirdSection dd{
+    margin:20px 70px;
+    font-size: 20px;
+  }
+
+  .fourthSection h1{
+    font-size: 40px;
+  }
+
+  .fourthSection{
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+  }
+
+  .skills-content{
+    width: 300px;
+    border: 3px solid gray;
+    border-radius: 45px;
+    height:300px;
+    margin: 35px;
+  }
+
+  .fourthSection ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px;
+    list-style: none;
+  }
+
+  .skills-title{
+    font-size: 30px;
+    margin:25px;
+  }
+
+  .fourthSection ul li{
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer{
+    text-align: center;
+    background-color: rgb(98, 229, 188);
+    padding: 15px;
+    font-size: 20px;
+  }
