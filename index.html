@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarunyaa's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#sectionOne">Home</a></li>
+          <li><a href="#sectionTwo">Certifications</a></li>
+          <li><a href="#sectionThree">Projects</a></li>
+          <li><a href="#sectionFour">Technical Skills</a></li>
+          <li><a href="#footer">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <section class="firstSection" id="sectionOne">
+      <div class="leftSection">
+        Hi,I am <span class="green">Sarunyaa</span>!<br>I am
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="images/devpic2.png" alt="">
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="secondSection" id="sectionTwo">
+      <h1>Certifications🎖️</h1>
+      <div class="certifications">
+        <div class="certificate-content">
+          <img src="./images/nptel-logo.png" alt="nptel=logo">
+          <div class="certificate-name">
+            Joy of Computing Using Python
+            <div class="certificate-duration">Jul-Oct 2022</div>
+          </div>
+        </div>
+        <div class="certificate-content">
+          <img src="./images/udemy-new-20212512.jpg" alt="udemy-logo">
+          <div class="certificate-name">
+            Mastering Data Structures & Algorithms using C and C++/
+            <div class="certificate-duration">Nov 2022</div>
+          </div>
+        </div>
+        <div class="certificate-content">
+          <img src="./images/d0ee664b5d927c7f395fd14fbb7e337dc5b84430.png" alt="hackerrank-logo">
+          <div class="certificate-name">
+            SQL(Basic)
+            <div class="certificate-duration">Nov 2022</div>
+          </div>
+        </div>
+        <div class="certificate-content">
+          <img src="./images/udemy-new-20212512.jpg" alt="udemy-logo">
+          <div class="certificate-name">
+            Learn JAVA Programming
+            <div class="certificate-duration">Dec 2022</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="thirdSection" id=   "sectionThree">
+      <h1>Projects📝</h1>
+      <div class="project-list">
+        <dl>
+          <dt>📎 School Security System</dt>
+          <dd> Developed a school security system which helps to monitor the in-time and the out-time of a student using
+            JDBC-ODBC connection.
+            The system helps the parent to monitor the entry time and the exit time of their children.</dd>
+          <dt>📎Medical Report Management System</dt>
+          <dd>A system in which a patient can view all his medical records anywhere and anytime.
+            The doctor can upload the medical report of his patient and also view the patients previous medical record
+            inorder to give an appropriate diagnosis.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="fourthSection" id="sectionFour">
+      <h1>Technical Skills🎯</h1>
+      <div class="skills">
+
+        <div class="skills-content">
+          <div class="skills-title">🌟Languages</div>
+          <div class="skill-name">
+            <ul>
+              <li>C</li>
+              <li>Python</li>
+              <li>Java</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-title">🌟Query Language</div>
+          <div class="skill-name">
+            <ul>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-title">🌟Web Technologies</div>
+          <div class="skill-name">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-title">🌟Core Concepts</div>
+          <div class="skill-name">
+            <ul>
+              <li>DSA</li>
+              <li>OOPS</li>
+              <li>DBMS</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-title">🌟Other Concepts</div>
+          <div class="skill-name">
+            <ul>
+              <li>VS Code</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="details">
+      <div class="email">
+        <p>📧Email: <a href="mailto:mpsarunyaa@gmail.com">mpsarunyaa@gmail.com</a>
+        </p>
+      </div>
+      <div class="linked-in">
+        <p>🔗LinkedIn: <a href="https://github.com/SarunyaaCSE">SarunyaaCSE</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Full Stack Developer!💻 ', 'Full Stack Developer!💻 '],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
